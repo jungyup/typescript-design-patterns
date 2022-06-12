@@ -1,9 +1,12 @@
-export class NumbersCollection {
+import { Sorter } from "./Sorter";
+
+export class NumbersCollection extends Sorter {
     // below is equivalent to
     // constructor(public data: number[]) {}
     data: number[];
 
     constructor(data: number[]) {
+        super();
         this.data = data;
     }
 
