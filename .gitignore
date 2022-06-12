@@ -4,9 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-/Maps/node_modules
-/Maps/dist
-/Maps/.cache
+/*/node_modules
+/*/dist
+/*/.cache
 
 # testing
 /coverage
